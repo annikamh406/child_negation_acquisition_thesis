@@ -8,7 +8,6 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
-knitr::opts_knit$set(root.dir = "~/Documents/LDS/Thesis/child_negation_acquisition_thesis")
 library("papaja")
 library(devtools)
 library(childesr)
