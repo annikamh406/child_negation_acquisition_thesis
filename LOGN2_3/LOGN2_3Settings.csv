@@ -1,0 +1,59 @@
+dataColumns,"['sNum', 'sID', 'months', 'days', 'sex', 'cond', 'condLabel', 'trial', 'GNG', 'trialType', 'stimName', 'habCrit', 'habTrialNo', 'sumOnA', 'numOnA', 'sumOffA', 'numOffA', 'sumOnB', 'numOnB', 'sumOffB', 'numOffB', 'trialDuration']"
+blockSum,1
+trialSum,1
+prefix,LOGN2_3
+dataloc,data/
+maxDur,"{'soundCheck': 60.0, 'preFam': 2.0, 'fam': 55.0, 'preTest': 2.0, 'test': 55.0}"
+playThrough,"{'soundCheck': 2, 'preFam': 2, 'fam': 0, 'preTest': 2, 'test': 0}"
+movieEnd,"['preFam', 'preTest']"
+maxOff,"{'soundCheck': 2.0, 'preFam': 2.0, 'fam': 2.0, 'preTest': 2.0, 'test': 2.0}"
+minOn,"{'soundCheck': 1.0, 'preFam': 0.0, 'fam': 0.0, 'preTest': 0.0, 'test': 0.0}"
+durationCriterion,[]
+autoRedo,[]
+onTimeDeadline,{}
+durationInclude,1
+habByDuration,0
+blindPres,0
+autoAdvance,"['fam', 'test']"
+randPres,True
+condPath,
+condFile,conditions.csv
+condList,"['test_not', 'test_now', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30']"
+baseCondFile,
+baseCondList,[]
+trialTypes,"['soundCheck', 'preFam', 'fam', 'preTest', 'test']"
+trialOrder,"['soundCheck', 'preFam', 'fam', 'preFam', 'fam', 'preFam', 'fam', 'preFam', 'fam', 'preFam', 'fam', 'preFam', 'fam', 'preTest', 'test', 'preTest', 'test', 'preTest', 'test']"
+blockList,{}
+blockDataList,[]
+maxHabTrials,14
+setCritWindow,3
+setCritDivisor,2.0
+setCritType,First
+habThresh,5.0
+metCritWindow,3
+metCritDivisor,1.0
+metCritStatic,Moving
+habTrialList,[]
+calcHabOver,[]
+stimPres,0
+stimPath,stimuli/
+stimNames,"{'soundCheck': ['soundCheck'], 'preFam': ['just_ball_short', 'just_duck_short', 'just_shoe_short', 'only_ball_short', 'only_duck_short', 'only_shoe_short', 'really_ball_short', 'really_duck_short', 'really_shoe_short', 'only_ball_long'], 'fam': ['just_ball_long', 'just_duck_long', 'just_shoe_long', 'only_duck_long', 'only_shoe_long', 'really_ball_long', 'really_duck_long', 'really_shoe_long', 'only_ball_long'], 'preTest': ['not_ball_short', 'not_duck_short', 'not_shoe_short', 'now_ball_short', 'now_duck_short', 'now_shoe_short'], 'test': ['not_ball_long', 'not_duck_long', 'not_shoe_long', 'now_duck_long', 'now_shoe_long', 'now_ball_long']}"
+stimList,"{'soundCheck': {'stimType': 'Image with audio', 'audioLoc': 'stimuli/test_audio.wav', 'imageLoc': 'stimuli/bear.jpg'}, 'really_ball_short': {'stimType': 'Image with audio', 'audioLoc': 'stimuli/really_ball_short.wav', 'imageLoc': 'stimuli/ball.jpg'}, 'really_ball_long': {'stimType': 'Image with audio', 'audioLoc': 'stimuli/really_ball_long.wav', 'imageLoc': 'stimuli/ball.jpg'}, 'really_duck_short': {'stimType': 'Image with audio', 'audioLoc': 'stimuli/really_duck_short.wav', 'imageLoc': 'stimuli/duck.jpg'}, 'really_duck_long': {'stimType': 'Image with audio', 'audioLoc': 'stimuli/really_duck_long.wav', 'imageLoc': 'stimuli/duck.jpg'}, 'really_shoe_short': {'stimType': 'Image with audio', 'audioLoc': 'stimuli/really_shoe_short.wav', 'imageLoc': 'stimuli/shoe.jpg'}, 'really_shoe_long': {'stimType': 'Image with audio', 'audioLoc': 'stimuli/really_shoe_long.wav', 'imageLoc': 'stimuli/shoe.jpg'}, 'only_ball_short': {'stimType': 'Image with audio', 'audioLoc': 'stimuli/only_ball_short.wav', 'imageLoc': 'stimuli/ball.jpg'}, 'only_duck_short': {'stimType': 'Image with audio', 'audioLoc': 'stimuli/only_duck_short.wav', 'imageLoc': 'stimuli/duck.jpg'}, 'only_duck_long': {'stimType': 'Image with audio', 'audioLoc': 'stimuli/only_duck_long.wav', 'imageLoc': 'stimuli/duck.jpg'}, 'only_shoe_short': {'stimType': 'Image with audio', 'audioLoc': 'stimuli/only_shoe_short.wav', 'imageLoc': 'stimuli/shoe.jpg'}, 'only_shoe_long': {'stimType': 'Image with audio', 'audioLoc': 'stimuli/only_shoe_long.wav', 'imageLoc': 'stimuli/shoe.jpg'}, 'just_ball_short': {'stimType': 'Image with audio', 'audioLoc': 'stimuli/just_ball_short.wav', 'imageLoc': 'stimuli/ball.jpg'}, 'just_ball_long': {'stimType': 'Image with audio', 'audioLoc': 'stimuli/just_ball_long.wav', 'imageLoc': 'stimuli/ball.jpg'}, 'just_duck_short': {'stimType': 'Image with audio', 'audioLoc': 'stimuli/just_duck_short.wav', 'imageLoc': 'stimuli/duck.jpg'}, 'just_duck_long': {'stimType': 'Image with audio', 'audioLoc': 'stimuli/just_duck_long.wav', 'imageLoc': 'stimuli/duck.jpg'}, 'just_shoe_short': {'stimType': 'Image with audio', 'audioLoc': 'stimuli/just_shoe_short.wav', 'imageLoc': 'stimuli/shoe.jpg'}, 'just_shoe_long': {'stimType': 'Image with audio', 'audioLoc': 'stimuli/just_shoe_long.wav', 'imageLoc': 'stimuli/shoe.jpg'}, 'now_ball_short': {'stimType': 'Image with audio', 'audioLoc': 'stimuli/now_ball_short.wav', 'imageLoc': 'stimuli/ball.jpg'}, 'now_duck_short': {'stimType': 'Image with audio', 'audioLoc': 'stimuli/now_duck_short.wav', 'imageLoc': 'stimuli/duck.jpg'}, 'now_duck_long': {'stimType': 'Image with audio', 'audioLoc': 'stimuli/now_duck_long.wav', 'imageLoc': 'stimuli/duck.jpg'}, 'now_shoe_short': {'stimType': 'Image with audio', 'audioLoc': 'stimuli/now_shoe_short.wav', 'imageLoc': 'stimuli/shoe.jpg'}, 'now_shoe_long': {'stimType': 'Image with audio', 'audioLoc': 'stimuli/now_shoe_long.wav', 'imageLoc': 'stimuli/shoe.jpg'}, 'not_ball_short': {'stimType': 'Image with audio', 'audioLoc': 'stimuli/not_ball_short.wav', 'imageLoc': 'stimuli/ball.jpg'}, 'not_ball_long': {'stimType': 'Image with audio', 'audioLoc': 'stimuli/not_ball_long.wav', 'imageLoc': 'stimuli/ball.jpg'}, 'not_duck_short': {'stimType': 'Image with audio', 'audioLoc': 'stimuli/not_duck_short.wav', 'imageLoc': 'stimuli/duck.jpg'}, 'not_duck_long': {'stimType': 'Image with audio', 'audioLoc': 'stimuli/not_duck_long.wav', 'imageLoc': 'stimuli/duck.jpg'}, 'not_shoe_short': {'stimType': 'Image with audio', 'audioLoc': 'stimuli/not_shoe_short.wav', 'imageLoc': 'stimuli/shoe.jpg'}, 'not_shoe_long': {'stimType': 'Image with audio', 'audioLoc': 'stimuli/not_shoe_long.wav', 'imageLoc': 'stimuli/shoe.jpg'}, 'now_ball_long': {'stimType': 'Image with audio', 'audioLoc': 'stimuli/now_ball_long.wav', 'imageLoc': 'stimuli/ball.jpg'}, 'only_ball_long': {'stimType': 'Image with audio', 'audioLoc': 'stimuli/only_ball_long.wav', 'imageLoc': 'stimuli/ball.jpg'}}"
+screenWidth,"{'C': 1080, 'L': 1080, 'R': 1080}"
+screenHeight,"{'C': 700, 'L': 700, 'R': 700}"
+screenColor,"{'C': 'black', 'L': 'black', 'R': 'black'}"
+movieWidth,"{'C': 800, 'L': 800, 'R': 800}"
+movieHeight,"{'C': 600, 'L': 600, 'R': 600}"
+screenIndex,"{'C': 1, 'L': 1, 'R': 1}"
+expScreenIndex,0
+ISI,"{'TrialTypeNew': 0.0, 'soundCheck': 60.0, 'preFam': 0.0, 'fam': 55.0, 'preTest': 0.0, 'test': 55.0}"
+freezeFrame,0.0
+playAttnGetter,"{'soundCheck': {'attnGetter': 'PyHabDefault', 'cutoff': 0, 'onmin': 0.0}, 'preFam': {'attnGetter': 'PyHabDefault', 'cutoff': 0, 'onmin': 0.0}, 'preTest': {'attnGetter': 'PyHabDefault', 'cutoff': 0, 'onmin': 0.0}}"
+attnGetterList,"{'PyHabDefault': {'stimType': 'Audio', 'stimName': 'upchime1.wav', 'stimDur': 2, 'stimLoc': 'stimuli/attnGetters/upchime1.wav', 'shape': 'Rectangle', 'color': 'yellow'}}"
+dynamicPause,[]
+midAG,{}
+folderPath,/Users/annika/Documents/LDS/Thesis/thesis/LOGN2_3/
+prefLook,0
+startImage,
+endImage,
+nextFlash,0
